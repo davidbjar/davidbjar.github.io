@@ -1,0 +1,151 @@
+/*
+  ========================================
+  Box-sizing
+  ========================================
+*/
+*{
+    box-sizing: border-box;
+}
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+body{
+    padding:1em
+}
+
+nav{
+    border:green 1px solid;
+}
+nav ul{
+    line-height: 1.5em;
+}
+
+header{
+    border:red 1px solid;
+    padding:0em 1em 1em 1em;
+    text-align:center;
+}
+header h1{
+    color:goldenrod;
+    font-size: 11vw;
+    font-weight: normal;
+}
+
+footer{
+    background-color:rgb(75, 109, 75);
+    padding:1em;
+}
+footer ul{
+    text-align:center;
+    list-style:none;
+    margin:0;
+    padding:0;
+    line-height:1.5em;
+    font-size:1.2em;
+}
+
+footer a:link{
+  color:rgb(190, 190, 190)
+}
+
+footer a:visited{
+  color:rgb(150, 150, 150)
+}
+
+footer a:hover{
+  color:rgb(206, 206, 206)
+}
+
+footer a:visited:hover{
+  color:rgb(168, 168, 168)
+}
+
+footer a:active, 
+footer a:visited:active{
+  color:white
+}
+
+@media only screen and (min-width:20em) {
+  main p{
+    text-align:justify;
+  }
+}
+
+@media only screen and (min-width:37.5em){
+    main aside{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        gap:1em
+    }
+
+    header h1{
+      font-size: 4em;
+  }
+}
+
+@media only screen and (min-width:48em){
+    nav{
+    padding: 0.1em 1em;
+  }
+  
+  nav ul{
+    list-style:none;
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-items:center;
+    padding: 0;
+  }
+
+  nav ul br{
+    display:none
+  }
+
+  main{
+    border:blue 1px solid;
+    padding:0em 1em
+  }
+  
+  footer ul{
+    display:grid;
+    grid-template-columns: repeat(3, fit-content(200px));
+    line-height:1em;
+    justify-content:space-between;
+    justify-items:center;
+    grid-auto-rows: minmax(min-content, max-content)
+  }
+
+  footer ul br{
+    display:none;
+  }
+}
+
+@media only screen and (min-width:60em){
+  main{
+    display:grid;
+    grid-template-columns:repeat(2, 1fr); 
+    gap: 1em
+  }
+}
+
+@media only screen and (min-width:80em){
+  body{
+    width:80em;
+    margin: 0 auto;
+  }
+}
