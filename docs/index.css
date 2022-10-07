@@ -1,3 +1,7 @@
+*{
+    text-align:center;
+}
+
 header{
     background:linear-gradient(#469597, #5BA199);
     color: #E5E3E4;
