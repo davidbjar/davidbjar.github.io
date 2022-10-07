@@ -1,3 +1,9 @@
-footer{
-    background:linear-gradient(#469597, #5BA199)
+header{
+    background:linear-gradient(#469597, #5BA199);
+    color: #E5E3E4;
+}
+
+main{
+    background-color: #DDBEAA;
+    color: #BBC6C8;
 }
