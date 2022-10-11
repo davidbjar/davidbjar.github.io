@@ -15,6 +15,11 @@
   *zoom: 1;
 }
 
+@font-face{
+  font-family:'Silkscreen';
+  src:url("../../Fonts/Silkscreen/Silkscreen-Regular.ttf")
+}
+
 body{
     margin: 0;
 }
@@ -32,9 +37,6 @@ header img{
     height: auto;
 }
 
-nav{
-}
-
 ul.navlist{
     display:grid;
     grid-template-columns: 1fr;
@@ -48,9 +50,32 @@ ul.navlist li{
    border: rgb(32, 0, 32) 4px solid;
    background-color: #a95dff;
    text-align: center;
+   font-family:"Silkscreen";
 }
 
 main{
     padding: 1px;
     background-color: #c6b3db;
+}
+
+blockquote{
+  border: 3px rgb(129, 110, 0) solid;
+  text-align: center;
+  background-color: #ba9718;
+  color: rgb(255, 232, 102);
+}
+
+div.fontcap{
+  float:left;
+  font-size:3em;
+  padding: 0em 0.2em;
+  margin-top: -3px;
+}
+
+main p{
+
+}
+
+main hr{
+  width: 90%;
 }
