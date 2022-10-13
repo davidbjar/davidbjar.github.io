@@ -17,12 +17,12 @@
 
 @font-face{
     font-family:Silkscreen;
-    src:url(./../../../Fonts/Silkscreen/Silkscreen-Regular.ttf)
+    src:url(/Fonts/Silkscreen/Silkscreen-Regular.ttf)
 }
 
 @font-face{
     font-family:Inter Tight;
-    src: url(./../../../Fonts/Inter_Tight/InterTight-VariableFont_wght.ttf);
+    src: url(/Fonts/Inter_Tight/InterTight-VariableFont_wght.ttf);
 }
 
 body{
