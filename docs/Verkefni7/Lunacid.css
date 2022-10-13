@@ -16,12 +16,12 @@
 }
 
 @font-face{
-    font-family:'Silkscreen';
+    font-family:Silkscreen;
     src:url(./../../../Fonts/Silkscreen/Silkscreen-Regular.ttf)
 }
 
 @font-face{
-    font-family:'Inter Tight';
+    font-family:Inter Tight;
     src: url(./../../../Fonts/Inter_Tight/InterTight-VariableFont_wght.ttf);
 }
 
@@ -58,7 +58,7 @@ ul.navlist li{
    border: rgb(32, 0, 32) 4px solid;
    background-color: #a95dff;
    text-align: center;
-   font-family:"Silkscreen";
+   font-family:Silkscreen;
 }
 
 nav a:link,
@@ -92,7 +92,7 @@ blockquote{
 main p, 
 main h3,
 footer{
-    font-family: "Inter Tight";
+    font-family: Inter Tight;
     padding: 1px 0.7em;
 }
 
